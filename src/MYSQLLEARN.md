@@ -24,9 +24,7 @@ SHOW VARIABLES -- 显示系统变量信息
         CHARACTER SET charset_name
         COLLATE collation_name
 -- 查看已有库
-    SHOW DATABASES[ LIKE 
-'PATTERN'
-]
+    SHOW DATABASES[ LIKE 'PATTERN']
 -- 查看当前库信息
     SHOW CREATE DATABASE 数据库名
 -- 修改库的选项信息
@@ -42,9 +40,7 @@ SHOW VARIABLES -- 显示系统变量信息
         最后一个字段后不能有逗号
         TEMPORARY 临时表，会话结束时表自动消失
         对于字段的定义：
-            字段名 数据类型 [NOT NULL | NULL] [DEFAULT default_value] [AUTO_INCREMENT] [UNIQUE [KEY] | [PRIMARY] KEY] [COMMENT 
-'string'
-]
+            字段名 数据类型 [NOT NULL | NULL] [DEFAULT default_value] [AUTO_INCREMENT] [UNIQUE [KEY] | [PRIMARY] KEY] [COMMENT 'string']
 -- 表选项
     -- 字符集
         CHARSET = charset_name
