@@ -1,6 +1,6 @@
-/**
+package day01自增变量; /**
  * Copyright (C), 2015-2019, XXX有限公司
- * FileName: Day01
+ * FileName: day01自增变量.Day01
  * Author:   kadibeieun
  * Date:     2019/4/9 15:51
  * Description: 自增变量
@@ -24,9 +24,9 @@ public class Day01 {
         System.out.println(i);
         int j = i++;
         int k = i+ ++i * i++;
-        System.out.println("i:"+i);
-        System.out.println("j:"+j);
-        System.out.println("k:"+k);
+        System.out.println("i:"+i); // 4
+        System.out.println("j:"+j); // 1
+        System.out.println("k:"+k); // 11
     }
 
 }
